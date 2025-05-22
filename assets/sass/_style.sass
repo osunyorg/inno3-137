@@ -2,5 +2,7 @@
     letter-spacing: 0.02em !important
 .hero
     background-image: url(/assets/images/pattern-colored.png)
-    background-size: 25%
     background-position-x: var(--grid-gutter)
+    background-size: 50%
+    @include media-breakpoint-up(desktop)
+       background-size: 25%

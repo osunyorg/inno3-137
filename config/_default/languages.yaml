@@ -9,6 +9,12 @@ fr:
   buildFuture: true
   params:
     contact_details:
+      emails:
+        email:
+          label: >-
+            le137@xvlv.io
+          value: >-
+            mailto:le137@xvlv.io
 
   permalinks:
     events: /agenda/:year/:slug/
